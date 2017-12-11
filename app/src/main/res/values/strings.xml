@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MorseCode</string>
+    <string name="edit_message">Enter The Words</string>
+    <string name="button_send">Encode</string>
+    <string name="edit_message2">Enter The Codes</string>
+    <string name="button_send2">Decode</string>
+    <string name="textview1">UI made by Mikoto Zhang.\nLogic made by Minnie Jiang.</string>
+</resources>
