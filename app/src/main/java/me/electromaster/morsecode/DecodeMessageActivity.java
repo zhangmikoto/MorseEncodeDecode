@@ -15,12 +15,12 @@ public class DecodeMessageActivity extends AppCompatActivity {
         // Get the Intent that started this activity and extract the string.
         Intent intent = getIntent();
         String message = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
-        message = Encode(message);
+        message = Decode(message);
         // Capture the layout's textView and set the string as its text.
         TextView textView3 = (TextView) findViewById(R.id.textView3);
         textView3.setText(message);
     }
-    protected String Encode(final String input){
+    protected String Decode(final String input){
         String[] temp = input.split(" ");
         String out = "";
         for (int i = 0; i < temp.length; i++) {
