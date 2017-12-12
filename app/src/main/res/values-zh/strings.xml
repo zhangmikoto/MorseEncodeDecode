@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">摩斯电码</string>
+    <string name="edit_message">请输入原文</string>
+    <string name="edit_message2">请输入电码</string>
+    <string name="button_send">编码</string>
+    <string name="button_send2">解码</string>
+</resources>
